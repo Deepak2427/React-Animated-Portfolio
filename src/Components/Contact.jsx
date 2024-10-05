@@ -9,7 +9,7 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   return (
     <>
-      <div className='container contact ' data-aos="zoom-in"
+      <div className='container contact' data-aos="zoom-in"
               data-aos-duration="1000" id='contact'>
         <h1>CONTACT ME</h1>
         <div className="contact-icons">
@@ -25,10 +25,10 @@ const Contact = () => {
           <a href='#' className="items">
             <FaSquareXTwitter className='icons'/>
           </a>
-          <a href='#' className="items">
+          <a href='https://github.com/Deepak2427' target='_blank' className="items">
             <SiGithub className='icons'/>
           </a>
-          <a href='https://mail.google.com/' target='_blank' className="items">
+          <a href='mailto:dps2782002@gmail.com' className="items">
             <SiGmail className='icons'/>
           </a>
         </div>
